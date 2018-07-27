@@ -10,7 +10,7 @@
  // ++ YOUR Code below (write the 'isNegative' function): ++
 
 function isNegative(number){
-	if (num >=0){
+	if (number >=0){
 		return false;
 	}else{
 		return true;

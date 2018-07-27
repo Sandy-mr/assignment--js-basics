@@ -22,12 +22,14 @@
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
 
 function makeUserGreeting(name, option){
-	if (option == true) {
-		return "Good to see you again," + name +".";
+	// console.log(option)
+	if (option === true) {
+		return "Good to see you again, " + name +".";
 	}else{
-		return "welcome, " + name + "!";
+		return "Welcome, " + name + "!";
 	}
 }
+
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*

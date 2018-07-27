@@ -10,17 +10,18 @@
  function getMinimum (x, y, z, w){
  	if  (x<=y && x<=z && x<=w){
  		return x;
- 	}
+ 	} else if (y<=x && y<=z && y<=w){
+   	return y;
+     }
+     if (z<=x && z<=y && z<=w){
+   		return z;
+   	}else{
+   		return w;
+   }
  }
- else if (y<=x && y<=z && y<==w){
- 	return y;
- }
-}else{
-	if (z<=x && z<=y && z<=w){
-		return z;
-	}else{
-		return w;
-}
+
+
+
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*
